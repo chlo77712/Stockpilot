@@ -1,0 +1,19 @@
+{
+  "name": "stockpilot-inventory",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Single-business inventory management system by Wepoghe Labs",
+  "main": "src/server.js",
+  "scripts": {"start":"node src/server.js", "dev":"node --watch src/server.js", "test":"node --test"},
+  "engines": {"node": ">=20"},
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-sqlite3": "^0.9.15",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "express-session": "^1.18.1",
+    "helmet": "^8.0.0",
+    "better-sqlite3": "^11.8.1"
+  }
+}
